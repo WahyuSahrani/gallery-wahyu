@@ -101,7 +101,7 @@ li a:hover{
 /* Media Query for tablets and small desktops */
 @media screen and (max-width: 768px) {
     .gallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
