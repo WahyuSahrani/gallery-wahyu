@@ -101,12 +101,12 @@ li a:hover{
 /* Media Query for tablets and small desktops */
 @media screen and (max-width: 768px) {
     .gallery {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 /* Media Query for mobile devices */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     li {
         float: none;
         width: 100%;
