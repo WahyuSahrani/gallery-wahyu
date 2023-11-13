@@ -116,4 +116,7 @@ li a:hover{
     li a {
         margin: 0;
     }
+	.gallery {
+        grid-template-columns: 1fr;
+    }
 }
