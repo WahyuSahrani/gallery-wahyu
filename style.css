@@ -98,12 +98,22 @@ li a:hover{
 
 }
 
-/* responsive */
-@media screen and (max-width:  768px){
-	.gallery{
-		grid-template-columns: 1fr 1fr;
-	}
-	.gallery img{
-		height: 170px;
-	}
+/* Media Query for tablets and small desktops */
+@media screen and (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Media Query for mobile devices */
+@media screen and (max-width: 480px) {
+    li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    li a {
+        margin: 0;
+    }
 }
